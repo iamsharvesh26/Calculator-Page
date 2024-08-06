@@ -1,0 +1,209 @@
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    background: #6be1ea;
+    font-family: Orbitron;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 250px 500px 10000px 650px;
+}
+
+#container {
+    width: 200px;
+    padding: 10px 10px 25px 10px;
+    margin: 20px auto;
+    background-color: #292d2d;
+    border-radius: 10px;
+    border-top: 2px solid #0008ff;
+    border-right: 2px solid #0008ff;
+    border-bottom: 2px solid #0008ff;
+    border-left: 2px solid #0008ff;
+    box-shadow: -3px 3px 7px rgba(0, 4, 255, 0.6), inset -100px 0px 100px #292d2d;
+}
+
+#display {
+    display: block;
+    margin: 15px auto;
+    height: 42px;
+    width: 174px;
+    padding: 0px 10px;
+    border-radius: 4px;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    background-color: #445140;
+    box-shadow: inset 0px 0px 10px #fff200, inset 0px -20px 1px rgba(150, 150, 150, .2);
+    font-size: 28px;
+    color: #2c334f;
+    text-align: left;
+    font-weight: 400;
+}
+
+.button {
+    display: inline-block;
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: italic;
+    border-radius: 4px;
+}
+
+.mathButtons {
+    margin: 2px 2px 6px 2px;
+    color: #FFF;
+    text-shadow: -1px -1px 0px #6f0068;
+    background-color: #434343;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #181818;
+    border-left: 2px solid #181818;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+}
+
+.digits {
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #1c1111;
+    background-color: #221b1b;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left: 2px solid #C1C1C1;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #030303;
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+    background-color: #00ff59;
+    box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #00ff59;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AE5700;
+    border-left: 2px solid #AE5700;
+}
+
+#clearButton {
+    color: #FFF;
+    text-shadow: -1px -1px 0px #00026f;
+    background-color: #D20000;
+    border-top: 2px solid #FF8484;
+    border-right: 2px solid #FF8484;
+    border-bottom: 2px solid #800000;
+    border-left: 2px solid #800000;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+}
